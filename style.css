@@ -1,0 +1,76 @@
+body {
+  background-color: #111;
+  font-family: monospace;
+}
+h1 {
+  color: #ddd;
+  text-align: center;
+  margin-top: 10px;
+  width: 100px;
+  padding: 5 5 5 5;
+}
+h1:hover {
+  color: #eee;
+  text-shadow: 0 0 0.2em #fff;
+}
+#container {
+  border: 1px solid #eee;
+  height: auto;
+  width: 800px;
+  padding: 10 10 10 10;
+  margin-bottom: 20px;
+  background-color: #000000;
+}
+#container:hover {
+  box-shadow: 0 0 0.3em #eee;
+}
+#message {
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  width: 650px;
+  font-family: monospace;
+  font-size: 12px;
+  height: 300px;
+  overflow: auto;
+}
+#message:hover {
+  
+}
+#newmessage {
+  background: transparent;
+  border: none;
+  width: 630px;
+  padding-left: 10px;
+  font-family: monospace;
+  font-size: 15px;
+  color: #ccc;
+  padding-top: 5px;
+  height: 40px;
+  padding-bottom: 5px;
+}
+#newmessage:hover {
+  background-color: #222;
+  color: #eee;
+  box-shadow: 0 0 0.2em #eee;
+}
+#newmessage:focus {
+  background: #111;
+  color: #fff;
+  box-shadow: 0 0 0.4em #fff;
+}
+#send {
+  background: transparent;
+  color: #fff;
+  border: none;
+  font-family: monospace;
+  font-size: 15px;
+  padding: 5 5 5 5;
+}
+#send:hover {
+  background: #bbb;
+  color: #000;
+  text-shadow: 0 0 0.2em #eee;
+  box-shadow: 0 0 0.3em #fff;
+}
